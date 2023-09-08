@@ -3,8 +3,8 @@
 **/.ipynb_checkpoints
 **/.vscode
 **/desktop.ini
-chembert/
-chk/
-CHEMBERT/model/pretrained_model.pt
-release/data/chembl_22_clean_1576904_sorted_std_final.smi
+**/chembert/
+**/chk/
+**/CHEMBERT/model/pretrained_model.pt
+**/release/data/chembl_22_clean_1576904_sorted_std_final.smi
 __test__
