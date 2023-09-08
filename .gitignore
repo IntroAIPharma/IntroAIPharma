@@ -5,4 +5,6 @@
 **/desktop.ini
 chembert/
 chk/
+CHEMBERT/model/pretrained_model.pt
+release/data/chembl_22_clean_1576904_sorted_std_final.smi
 
