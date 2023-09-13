@@ -41,5 +41,15 @@ After the commands, reload your window.
 - Click "Clone a repository"
 - on the pop-up, click "Download the repository", then enter the address: "https://github.com/gmseabra/IntroAIPharma.git"
 - Click OK
-It wil ldownload the repository, and you should see "IntroAIPharma" on the left side bar.
+It will download the repository, and you should see "IntroAIPharma" on the left side bar.
+
+
+# Open the Notebook
+
+After you clone the repository, you should see the "IntroAIPharma" folder in the navigation pane on the left.
+(If you don't see it, make sure the navigation pane is active by clickin in the folder image in the top left).
+
+Navigate to IntroAIPharma --> Workshop then double click to open the notebook.
+
+Have fun.
 
