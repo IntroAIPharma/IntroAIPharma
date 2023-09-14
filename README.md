@@ -24,14 +24,16 @@ After opening Jupyter lab, we need to prepare the environment. You only need to 
 After that, the environment will be available every time you use it. 
 
 ## Setting up the Python environemt
-The python environemt has already been prepared for you. All you need is to make a symbolic link to it.
-- On the Jupyter "Launch" tab, roll down to the end and click to open a new Terminal
+The python environment has already been prepared for you. All you need is to make a symbolic link to it.
+- On the Jupyter "Launch" tab, roll down to the end. 
+- Find the apps grouped as "Other" and click on "Terminal" to open a new Terminal
 - In the new terminal, issue the comands:
 ```
 $ mkdir -p  ~/.local/share/jupyter/kernels/
 $ cp -r /blue/pha6935/share/conda/kernels/pha6935 ~/.local/share/jupyter/kernels/
-
 ```
+You can now press control-D to close the terminal.
+
 (Notice: The "$"symbol is the prompt, you don't need to write it.)
 
 After the commands, reload your window.
