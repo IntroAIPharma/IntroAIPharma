@@ -1,4 +1,4 @@
-# Introduction to AI in Pharmacy - PHA-6935
+# Deep Generative Chemistry for Drug Design
 Here we share the notebooks for the workshop on molecule generation used for the 
 courses: 
 
