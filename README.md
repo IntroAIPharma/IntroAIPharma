@@ -1,6 +1,9 @@
 # Introduction to AI in Pharmacy - PHA-6935
 Here we share the notebooks for the workshop on molecule generation used for the 
-course of *Introduction to AI in Pharmacy - PHA-6935*, offered in Fall 2023.
+courses: 
+
+ - *Introduction to AI in Pharmacy - PHA-6935*, offered in Fall 2023.
+ - *Drug Design II - PHA 6467*, offered in Spring 2024
 
 # HiPerGator Instructions
 
@@ -9,7 +12,7 @@ Once in the main page, choose to start a Jupyter Notebbok.
 
 A new page will open. In this one, adjust the requirements before starting the process:
 
-- Additional Jupyter Arguments: enter `--notebook-dir=/blue/pha6935/<userid>`, substituting `<userid>` by your GatorLink ID.
+- Additional Jupyter Arguments: enter `--notebook-dir=/blue/pha6467/<userid>`, substituting `<userid>` by your GatorLink ID.
 - Number of CPU cores requested per MPI task: enter `4`
 - Maximum memory requested for this job in Gigabytes: enter `24`
 - Time Requested for this job in hours: enter `2` (You can request for more hours if you need.)
@@ -18,27 +21,7 @@ A new page will open. In this one, adjust the requirements before starting the p
 
 After setting all these, click "launch". In the new window, click "Connect to Jupyter". This will open Jupyter Lab.
 
-# Preparing the Environemt
-
-After opening Jupyter lab, we need to prepare the environment. You only need to do this once.
-After that, the environment will be available every time you use it. 
-
-## Setting up the Python environemt
-The python environment has already been prepared for you. All you need is to make a symbolic link to it.
-- On the Jupyter "Launch" tab, roll down to the end. 
-- Find the apps grouped as "Other" and click on "Terminal" to open a new Terminal
-- In the new terminal, issue the comands:
-```
-$ mkdir -p  ~/.local/share/jupyter/kernels/
-$ cp -r /blue/pha6935/share/conda/kernels/pha6935 ~/.local/share/jupyter/kernels/
-```
-You can now press control-D to close the terminal.
-
-(Notice: The "$"symbol is the prompt, you don't need to write it.)
-
-After the commands, reload your window.
-
-## Clone the Git repository
+# Clone the Git repository
 - On the left side, click the Git symbol
 - Click "Clone a repository"
 - on the pop-up, click "Download the repository", then enter the address: "https://github.com/gmseabra/IntroAIPharma.git"
