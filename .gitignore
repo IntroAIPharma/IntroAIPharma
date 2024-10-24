@@ -3,6 +3,7 @@
 **/.ipynb_checkpoints
 **/.vscode
 **/desktop.ini
+**/install.txt
 **/chembert/
 **/chk/
 **/CHEMBERT/model/pretrained_model.pt
